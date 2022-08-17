@@ -1,0 +1,71 @@
+body{
+    height: 100vh;
+    width: 100%;
+    background:url(../images/node/node.jpeg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.marque{
+    color: aqua;
+    font-size: 20px;
+}
+#services{
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.headings{
+    text-align: center;
+}
+.row{
+    display: flex;  
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background:linear-gradient(to top, rgb(255 45 45) 50%, black 50% );
+    background-size: 100% 200%;
+    transition: all .8s;
+    background: url("../images/node/node\ image.png") no-repeat;
+    width:fixed;
+    
+}
+.box:hover{
+    background-position: left bottom;
+    background:url("../images/node/node-js-background2.png") no-repeat;
+    color: white;     
+    border: none;
+    box-shadow: 0 0 20px white;
+}
+.box img{
+    width: 80px;
+    height:80;
+    background-color: white;
+    padding: 10px;
+}
+
+a button{
+    background-color: white;
+    width: 150px;
+    color: black;
+}
+.para{
+    color:cyan;
+    text-align: center;
+    padding-top: "400px";
+}
